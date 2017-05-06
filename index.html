@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--Native stylesheet reference-->
+    <link rel="stylesheet" href="public/css/style.css">
+    <!--Font Awesome CDN-->
+    <script src="https://use.fontawesome.com/2c3779d488.js"></script>
+    <!--Google Fonts CDN-->
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Poiret+One" rel="stylesheet">
+</head>
+<body ng-app="origami">
+
+
+<div class="continer-fluid">
+    <div class="row">
+        <div class="col-md-12 col-xs-12 header navbar-fixed-top">
+            <header>
+                <nav>
+                    <a href="#">O</a>
+                    <a href="#">About</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Account</a>
+
+                </nav>
+            </header>
+        </div>
+    </div>
+</div>
+
+<ng-view></ng-view>
+
+<!--Jquery CDN-->
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<!--Angular CDN-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<!--Angular routing CDN-->
+<script type="text/javascript" src="https://code.angularjs.org/1.5.8/angular-route.min.js"></script>
+
+
+<!--Injection of Angular Application-->
+<script src="public/js/index.js"></script>
+
+<!--Injection of Angular modules-->
+<script src="public/js/welcome.js"></script>
+</body>
+</html>

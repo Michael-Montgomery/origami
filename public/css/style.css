@@ -1,0 +1,27 @@
+.header {
+    height: 70px;
+}
+
+.header nav {
+    text-align: center;
+    line-height: 70px;
+}
+
+.header nav a {
+    color: white;
+    font-size: 3em;
+}
+
+.header nav a:first-child {
+    float: left;
+}
+
+
+
+
+.welcome-wrapper-one {
+    height: 100vh;
+    background-image: url("https://static.pexels.com/photos/26447/pexels-photo-26447.jpg");
+    background-size: cover;
+    background-position: center;
+}
