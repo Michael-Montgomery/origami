@@ -9,7 +9,43 @@
         </div>
     </div>
 </div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 col-cs-12 welcome-sub-nav">
+            <nav>
+                <a href="#">Our Team</a>
+                <a href="#">Our Mission</a>
+                <a href="#">What We Do</a>
+                <a href="#">Our Process</a>
+            </nav>
+        </div>
+    </div>
+</div>
 
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 welcome-our-team-wrapper">
+            <h2 class="our-team-intro">
+                The Origami team consists of individuals who are committed to excellence and experienced in their respective
+                fields.
+            </h2><br>
+            <ul id="team-member-list">
+                <li ng-repeat="member in team">
+                    <div class="member-wrapper">
+                        <div class="member-picture-wrapper" ng-style="{'background-image':'url({{member.photoUrl}})'}"></div>
+                        <div class="member-title-wrapper">
+                            <h2 class="member-name">{{member.name}}</h2><br>
+                            <h2 class="member-title">{{member.title}}</h2>
+
+                        </div>
+                    </div>
+
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
 
 
 
