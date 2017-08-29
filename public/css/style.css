@@ -369,6 +369,24 @@
     background-color: #377ADA;
 }
 
+
+#footer-left-list {
+    text-align: center;
+    padding-left: 0;
+    list-style-type: none;
+    padding-top: 100px;
+}
+
+#footer-left-list li a {
+    color: white;
+    opacity: .7;
+    font-size: 2.5em;
+    transition: all .4s;
+}
+#footer-left-list li a:hover {
+    opacity: 1;
+}
+
 .footer-center-div {
     border-left: 2px solid white;
     border-right: 2px solid white;
@@ -400,5 +418,14 @@
 #footer-copyright {
     vertical-align: baseline;
     margin-top: 85px;
+    color: white;
+}
+
+.footer-right-div form {
+    text-align: center;
+}
+
+.footer-right-div form p {
+    text-align: center;
     color: white;
 }

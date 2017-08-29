@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Origami Digital - Web & Media Agency</title>
     <!--Bootstrap CDN-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!--Native stylesheet reference-->
@@ -38,16 +38,27 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-4 footer-left-div footer-div"></div>
+        <div class="col-md-4 footer-left-div footer-div">
+            <ul id="footer-left-list">
+                <li><a href="tel:+3214084250"><i class="fa fa-phone" aria-hidden="true"></i></a> </li>
+                <li><a href="mailto:michael@michaelmontgomery.io"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> </li>
+            </ul>
+        </div>
             <div class="col-md-4 footer-center-div footer-div">
                 <ul id="footer-contact-list">
                     <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                     <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <p id="footer-copyright">&#169; Origami Digital LLC. All rights reserved</p>
+                    <p id="footer-copyright">&#169; 2017 Origami Digital LLC.</p>
                 </ul>
             </div>
-                <div class="col-md-4 footer-right-div footer-div"></div>
+                <div class="col-md-4 footer-right-div footer-div">
+                    <form>
+                        <p>Join our mailing list</p><br>
+                        <input type="email" ng-model="footerForm.mailingListSugnup" placeholder="Email"><br>
+                        <button><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></button>
+                    </form>
+                </div>
 
         </div>
     </div>
