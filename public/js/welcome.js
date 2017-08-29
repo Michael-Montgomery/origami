@@ -2,6 +2,55 @@ var app = angular.module('origami.welcome', []);
 
 
 app.controller('welcomeController', function($scope) {
+
+    $(window).scroll(function() {
+        if($(window).scrollTop() != 0) {
+            $('.header').css({
+                'background-color': 'white'
+            });
+            $('.header nav a').css('color', '#377ADA')
+        } else {
+            $('.header').css({
+                'background-color': 'transparent',
+                'opacity': '1'
+            });
+            $('.header nav a').css('color', 'white')
+        }
+    });
+
+
+    var hideAllMiniDivs = function() {
+        $('.welcome-our-team-wrapper, .welcome-our-mission-wrapper, .welcome-what-we-do-wrapper ').hide();
+        $('.welcome-sub-nav nav a').removeClass('selected');
+    };
+
+    $scope.showOurTeamDiv = function() {
+        hideAllMiniDivs();
+        $('.welcome-our-team-wrapper').show();
+        $('#our-team-link').addClass('selected');
+    };
+
+    $scope.showOurMissionDiv = function() {
+        hideAllMiniDivs();
+        $('.welcome-our-mission-wrapper').show();
+        $('#our-mission-link').addClass('selected')
+    };
+
+    $scope.showWhatWeDoDiv = function() {
+        hideAllMiniDivs();
+        $('.welcome-what-we-do-wrapper').show();
+        $('#what-we-do-link').addClass('selected');
+    };
+
+    $scope.loadWhatWeDo = function(){
+        $scope.showWhatWeDoDiv();
+        $('html, body').animate({
+            scrollTop: $(".welcome-sub-nav").offset().top - 70
+        }, 1500);
+    }
+
+
+
     $scope.team = [
         {
             name: 'Michael Montgomery',

@@ -1,10 +1,10 @@
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-12 welcome-wrapper-one">
+        <div class="col-md-12 welcome-wrapper-one" id="welcome-top">
             <h2>Origami Digital is a full service web design and development agency specializing in creating stunning
             internet experiences.</h2>
             <div class="center">
-                <button>What We Do</button>
+                <button ng-click="loadWhatWeDo()">What We Do</button>
             </div>
         </div>
     </div>
@@ -13,10 +13,10 @@
     <div class="row">
         <div class="col-md-12 col-cs-12 welcome-sub-nav">
             <nav>
-                <a href="#">Our Team</a>
-                <a href="#">Our Mission</a>
-                <a href="#">What We Do</a>
-                <a href="#">Our Process</a>
+                <a class="selected" id="our-team-link" ng-click="showOurTeamDiv()">Our Team</a>
+                <a id="our-mission-link" ng-click="showOurMissionDiv()">Our Mission</a>
+                <a id="what-we-do-link" ng-click="showWhatWeDoDiv()">What We Do</a>
+                <!--<a id="our-process">Our Process</a>-->
             </nav>
         </div>
     </div>

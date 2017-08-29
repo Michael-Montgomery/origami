@@ -1,7 +1,8 @@
 var app = angular.module('origami', [
     'ngRoute',
     'origami.welcome',
-    'origami.work'
+    'origami.work',
+    'origami.contact'
 ])
 
 app.config(function($routeProvider) {
@@ -19,5 +20,10 @@ app.config(function($routeProvider) {
     $routeProvider.when('/work', {
         templateUrl: 'public/views/templates/work.tpl.html',
         controller: 'workController'
+    });
+
+    $routeProvider.when('/contact', {
+        templateUrl: 'public/views/templates/contact.tpl.html',
+        controller: 'contactController'
     })
-})
+});

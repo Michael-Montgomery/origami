@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 contact-wrapper-one">
+            <h2>We would love to hear from you.</h2>
+            <ul id="contact-social-list">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 contact-wrapper-two">
+            <form id="contact-form">
+                <input type="text" id="fName" ng-model="contactForm.firstName" class="half" placeholder="First Name">
+                <input type="text" id="lName" ng-model="contactForm.lastName" class="half" placeholder="Last Name"><br>
+                <input type="text" ng-model="contactForm.company" class="full" placeholder="Company"><br>
+                <input type="email" ng-model="contactForm.email" class="full" placeholder="Email Address"><br>
+                <select class="full">
+                    <option value="default">Primary Reason for Contact</option>
+                    <option value="dev">Website Design and/or Development</option>
+                    <option value="ux">UI/UX</option>
+                    <option value="brand">Branding</option>
+                    <option value="other">Other</option>
+                </select><br>
+                <input type="text" ng-model="contactForm.currentUrl" class="full" placeholder="Current URL (if applicable)"><br>
+                <textarea ng-model="contactForm.details" class="full" placeholder="Include a memo or brief details about your project here."></textarea><br>
+                <button class="full"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+            </form>
+        </div>
+    </div>
+</div>
