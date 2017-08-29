@@ -28,7 +28,7 @@
 
 
 .welcome-wrapper-one {
-    height: 75vh;
+    min-height: 75vh;
     background: #0F9FF3; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(left top, #0F9FF3, #7CC6F1); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom right, #0F9FF3, #7CC6F1); /* For Opera 11.1 to 12.0 */
@@ -72,7 +72,6 @@
 
 .welcome-our-team-wrapper {
     padding: 5% 10%;
-    display: none;
 }
 
 .our-team-intro {
@@ -121,6 +120,7 @@
 
 .welcome-what-we-do-wrapper {
     padding: 40px 60px;
+    display: none;
 }
 
 .welcome-what-we-do-wrapper dl {
@@ -143,6 +143,22 @@
     color: #7CC6F1;
     font-size: 3em;
     margin-bottom: 50px;
+}
+
+.welcome-our-mission-wrapper {
+    padding: 40px 60px;
+    display: none;
+}
+
+.welcome-our-mission-wrapper h2 {
+    font-size: 4em;
+    text-align: center;
+    color: #377ADA;
+}
+
+.welcome-our-mission-wrapper p {
+    font-size: 3em;
+    color: #7CC6F1;
 }
 
 
