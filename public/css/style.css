@@ -201,10 +201,12 @@
 }
 
 .work-wrapper-one {
-    background-image: url("https://static.pexels.com/photos/7109/laptop-notebook-clean-hero.jpg");
     min-height: 70vh;
-    background-size: cover;
-    background-attachment: fixed;
+    background: #0F9FF3; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #0F9FF3, #7CC6F1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #0F9FF3, #7CC6F1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #0F9FF3, #7CC6F1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #0F9FF3, #7CC6F1); /* Standard syntax */
 }
 
 .work-wrapper-one h2 {
@@ -246,10 +248,12 @@
 }
 
 .contact-wrapper-one {
-    background-image: url("https://static.pexels.com/photos/19068/mirror-light-black-glass.jpg");
-    background-size: cover;
+    background: #0F9FF3; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #0F9FF3, #7CC6F1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #0F9FF3, #7CC6F1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #0F9FF3, #7CC6F1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #0F9FF3, #7CC6F1); /* Standard syntax */
     min-height: 60vh;
-    background-attachment: fixed;
 }
 
 .contact-wrapper-one h2 {
@@ -274,7 +278,13 @@
 
 #contact-social-list li a {
     color: white;
-    font-size: 2.5em;
+    font-size: 2.8em;
+    opacity: .7;
+    transition: all .3s;
+}
+
+#contact-social-list li a:hover {
+    opacity: 1;
 }
 
 .contact-wrapper-two {

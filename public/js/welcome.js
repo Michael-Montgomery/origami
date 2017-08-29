@@ -6,13 +6,16 @@ app.controller('welcomeController', function($scope) {
     $(window).scroll(function() {
         if($(window).scrollTop() != 0) {
             $('.header').css({
-                'background-color': 'white'
+                'background-color': 'white',
+                'border-bottom': '2px solid #0F9FF3'
             });
-            $('.header nav a').css('color', '#377ADA')
+            $('.header nav a').css('color', '#377ADA');
+
         } else {
             $('.header').css({
                 'background-color': 'transparent',
-                'opacity': '1'
+                'opacity': '1',
+                'border-bottom': 'none'
             });
             $('.header nav a').css('color', 'white')
         }
