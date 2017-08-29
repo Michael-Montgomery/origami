@@ -72,6 +72,7 @@
 
 .welcome-our-team-wrapper {
     padding: 5% 10%;
+    display: none;
 }
 
 .our-team-intro {
@@ -116,6 +117,32 @@
 
 .member-title {
     font-size: 1em;
+}
+
+.welcome-what-we-do-wrapper {
+    padding: 40px 60px;
+}
+
+.welcome-what-we-do-wrapper dl {
+    text-align: center;
+}
+
+.welcome-what-we-do-wrapper dl dt {
+    color: white;
+    font-size: 4em;
+    font-weight: 100;
+    background-color: #377ADA;
+    border-radius: 50%;
+    padding: 7px;
+    width: 110px;
+    height: 110px;
+    display: inline;
+}
+
+.welcome-what-we-do-wrapper dl dd {
+    color: #7CC6F1;
+    font-size: 3em;
+    margin-bottom: 50px;
 }
 
 
