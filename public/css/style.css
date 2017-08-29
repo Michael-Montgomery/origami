@@ -161,6 +161,51 @@
     color: #7CC6F1;
 }
 
+.work-wrapper-one {
+    background-image: url("https://static.pexels.com/photos/7109/laptop-notebook-clean-hero.jpg");
+    min-height: 70vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.work-wrapper-one h2 {
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 4em;
+}
+
+.work-wrapper-two {
+    padding-top: 40px;
+}
+
+#portfolio-list {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+#portfolio-list li {
+    margin-bottom: 20px;
+}
+
+.project-wrapper {
+    height: 400px;
+    width: 97vw;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.project-name {
+    color: white;
+    font-size: 3em;
+    float: left;
+    margin-top: 175px;
+    padding-left: 150px;
+    padding-right: 15px;
+    background-color: rgba(0,0,0,.7);
+}
+
 
 
 

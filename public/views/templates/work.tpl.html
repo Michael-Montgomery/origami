@@ -1,0 +1,21 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 work-wrapper-one">
+            <h2>We are proud of the amazing work we do.</h2>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 work-wrapper-two">
+            <ul id="portfolio-list">
+                <li ng-repeat="project in projects">
+                    <div class="project-wrapper track by $index" ng-style="{'background-image':'url({{project.backgroundUrl}})'}" ng-click="loadUrl($index)">
+                        <p class="project-name">{{project.name}}</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
