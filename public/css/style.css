@@ -31,6 +31,11 @@
     float: left;
 }
 
+.header nav a:last-child {
+    float: right;
+    display: none;
+}
+
 
 
 
@@ -76,7 +81,7 @@
 }
 
 .welcome-sub-nav nav a {
-    color: white;
+    color: #7CC6F1;
     margin-right: 7px;
     margin-left: 7px;
     font-size: 1.5em;
@@ -88,8 +93,8 @@
 
 .selected {
     background-color: white;
-    color: #377ADA;
-    padding: 5px;
+    text-decoration: none;
+    padding: 10px;
     padding-bottom: 30px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -167,10 +172,9 @@
 }
 
 .welcome-what-we-do-wrapper dl dt {
-    color: white;
-    font-size: 5em;
+    color: #377ADA;
+    font-size: 6em;
     font-weight: 100;
-    background-color: #377ADA;
     border-radius: 50%;
     padding: 7px;
     width: 150px;
@@ -235,6 +239,7 @@
     width: 97vw;
     background-size: cover;
     background-attachment: fixed;
+    border: 1px solid #0F9FF3;
 }
 
 .project-name {
@@ -349,6 +354,9 @@
     background-color: #377ADA;
 }
 
+#contact-form input::-webkit-input-placeholder, #contact-form textarea::-webkit-input-placeholder{
+    color: #7CC6F1;
+}
 
 
 
@@ -460,4 +468,70 @@
 
 .footer-right-div button:hover {
     opacity: 1;
+}
+
+
+
+
+
+
+/*Media queries*/
+
+
+@media (max-width: 600px) {
+
+    .header {
+
+    }
+
+    .header nav a:nth-child(2),.header nav a:nth-child(3),.header nav a:nth-child(4) {
+        display: none;
+    }
+    
+    .header nav a:last-child {
+        display: inline-block;
+        opacity: 1;
+    }
+
+
+    .welcome-wrapper-one {
+        min-height: 35vh;
+    }
+    .welcome-wrapper-one h2 {
+        font-size: 2em;
+        margin-top: 25%;
+    }
+    .welcome-wrapper-one button {
+        font-size: 1.3em;
+        margin-top: 5%;
+    }
+    .welcome-sub-nav nav a {
+        font-size: 1.2em;
+        margin: 0 3px;
+    }
+    .welcome-our-team-wrapper {
+        padding: 5%;
+    }
+    .our-team-intro {
+        font-size: 1.5em;
+    }
+    .member-wrapper {
+        width: 90vw;
+    }
+    .member-name {
+        font-size: 1.8em;
+    }
+    .member-title {
+        font-size: 1.3em;
+    }
+    .welcome-what-we-do-wrapper {
+        padding: 10%;
+    }
+    .welcome-what-we-do-wrapper dl dt {
+        font-size: 5.5em;
+
+    }
+    .welcome-what-we-do-wrapper dl dd {
+        font-size: 1.8em;
+    }
 }
