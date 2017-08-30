@@ -474,11 +474,58 @@
 
 
 
+.mini-footer {
+    background-color: #377ADA;
+    display: none;
+}
+
+.mini-footer button {
+    text-align: center;
+    background-color: transparent;
+    border: 3px solid white;
+    margin-top: 50px;
+}
+
+.mini-footer button a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+.mini-footer ul {
+    text-align: center;
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.mini-footer ul li {
+    display: inline;
+    margin: 0 7px;
+
+}
+
+.mini-footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.5em;
+    opacity: .8;
+}
+
+.mini-footer p {
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
 
 /*Media queries*/
 
 
-@media (max-width: 600px) {
+@media (max-width: 775px) {
 
     .header {
 
@@ -592,5 +639,58 @@
     }
     #contact-form button {
         background-color: #377ADA;
+    }
+    .footer-div {
+        display: none;
+    }
+    .mini-footer {
+        display: block;
+    }
+    .mini-footer button {
+        text-align: center;
+        background-color: transparent;
+        border: 3px solid white;
+        margin-top: 50px;
+    }
+
+    .mini-footer button a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 350px) {
+    .welcome-wrapper-one h2 {
+        font-size: 1.7em;
+    }
+    .welcome-wrapper-one button {
+        font-size: 1.1em;
+    }
+    .welcome-sub-nav nav a {
+        font-size: 1em;
+    }
+    .our-team-intro {
+        font-size: 1.8em;
+    }
+    .welcome-our-mission-wrapper h2 {
+        font-size: 3em;
+    }
+    .welcome-our-mission-wrapper p {
+        font-size: 1.3em;
+    }
+    .welcome-what-we-do-wrapper dl dd {
+        font-size: 1.5em;
+    }
+    .half {
+        width: 95vw;
+        font-size: 1.5em;
+    }
+    .full {
+        width: 95vw;
+        font-size: 1.5em;
+    }
+    #contact-form textarea {
+        height: 250px;
     }
 }
