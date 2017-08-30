@@ -59,28 +59,21 @@ app.controller('welcomeController', function($scope) {
             title: 'Web Developer',
             bio: 'hgjfdhgjfkdls ghfjkd lsghjfksdl ghfjkdsl gjfdgfd.gfjhd ghfdklg fhjdklsghfjdk glshfdkj slghjfkdlhsgjf' +
             'gjhfdjklsghj fdjhgs fjdsgfds.gfjdklg fhdklgj;hfkdl gjfklsgjfdk gl fdgjfdklsg; fdjgfdkjf.',
-            photoUrl: 'http://i.imgur.com/5Zcmihd.jpg'
+            photoUrl: 'https://scontent.ftpa1-2.fna.fbcdn.net/v/t1.0-9/189381_192406970793825_114382_n.jpg?oh=62c23240144771b7e0a2c5d423631d30&oe=5A23AF9D'
         },
         {
             name: 'Alisa Hokett',
             title: 'Marketing Specialist',
             bio: 'hgjfdhgjfkdls ghfjkd lsghjfksdl ghfjkdsl gjfdgfd.gfjhd ghfdklg fhjdklsghfjdk glshfdkj slghjfkdlhsgjf' +
             'gjhfdjklsghj fdjhgs fjdsgfds.gfjdklg fhdklgj;hfkdl gjfklsgjfdk gl fdgjfdklsg; fdjgfdkjf.',
-            photoUrl: 'http://i.imgur.com/jImJ7zu.jpg'
+            photoUrl: 'https://scontent.ftpa1-2.fna.fbcdn.net/v/t1.0-9/11080988_10203992807527892_5394468453804242708_n.jpg?oh=6563efd5ea243c65e7488d0afc7c6b8f&oe=5A1ED334'
         },
         {
-            name: 'John Sharpe',
-            title: 'Sales Engineer',
+            name: 'Adrian Barton',
+            title: 'Operations Specialist',
             bio: 'hgjfdhgjfkdls ghfjkd lsghjfksdl ghfjkdsl gjfdgfd.gfjhd ghfdklg fhjdklsghfjdk glshfdkj slghjfkdlhsgjf' +
             'gjhfdjklsghj fdjhgs fjdsgfds.gfjdklg fhdklgj;hfkdl gjfklsgjfdk gl fdgjfdklsg; fdjgfdkjf.',
             photoUrl: 'http://i.imgur.com/pf3gyUr.jpg'
-        },
-        {
-            name: 'Some Chick',
-            title: 'Administrative Specialist',
-            bio: 'hgjfdhgjfkdls ghfjkd lsghjfksdl ghfjkdsl gjfdgfd.gfjhd ghfdklg fhjdklsghfjdk glshfdkj slghjfkdlhsgjf' +
-            'gjhfdjklsghj fdjhgs fjdsgfds.gfjdklg fhdklgj;hfkdl gjfklsgjfdk gl fdgjfdklsg; fdjgfdkjf.',
-            photoUrl: 'http://i.imgur.com/69CgKeb.jpg'
         }
     ]
 })
