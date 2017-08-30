@@ -513,7 +513,8 @@
         padding: 5%;
     }
     .our-team-intro {
-        font-size: 1.5em;
+        font-size: 2.3em;
+        margin-bottom: 25px;
     }
     .member-wrapper {
         width: 90vw;
@@ -533,5 +534,63 @@
     }
     .welcome-what-we-do-wrapper dl dd {
         font-size: 1.8em;
+    }
+    .welcome-our-mission-wrapper {
+        padding: 10%;
+    }
+    .welcome-our-mission-wrapper h2 {
+        font-size: 3.5em;
+    }
+    .welcome-our-mission-wrapper p {
+        font-size: 1.8em;
+        text-align: center;
+    }
+    .work-wrapper-one {
+        min-height: 50vh;
+    }
+    .work-wrapper-one h2 {
+        font-size: 2.3em;
+        margin-top: 0;
+        padding-top: 20vh;
+    }
+    .work-wrapper-two {
+        padding-top: 5px;
+    }
+    .project-wrapper {
+        width: 93vw;
+        height: 200px;
+    }
+    .project-name {
+        margin-top: 75px;
+        padding-left: 10vw;
+        font-size: 2em;
+    }
+    .contact-wrapper-one h2 {
+        font-size: 2em;
+        margin-top: 0;
+        padding-top: 20vh;
+    }
+    #contact-social-list {
+        margin-top: 40px;
+    }
+    #contact-social-list li a {
+        opacity: 1;
+    }
+    .contact-wrapper-two {
+        padding-top: 20px;
+    }
+    #fName {
+        border-right: none;
+    }
+    .half {
+        width: 90vw;
+        font-size: 2em;
+    }
+    .full {
+        width: 90vw;
+        font-size: 2em;
+    }
+    #contact-form button {
+        background-color: #377ADA;
     }
 }
