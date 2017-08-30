@@ -423,9 +423,41 @@
 
 .footer-right-div form {
     text-align: center;
+    margin-top: 90px;
 }
 
 .footer-right-div form p {
     text-align: center;
     color: white;
+    font-size: 2em;
+}
+
+.footer-right-div input {
+    font-size: 2em;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.footer-right-div input::-webkit-input-placeholder {
+    color: white;
+    opacity: .7;
+}
+
+.footer-right-div button {
+    background-color: transparent;
+    color: white;
+    opacity: .7;
+    border: none;
+    outline: none;
+    font-size: 3em;
+    transition: all .3s;
+    visibility: hidden;
+}
+
+.footer-right-div button:hover {
+    opacity: 1;
 }

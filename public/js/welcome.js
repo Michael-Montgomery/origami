@@ -21,6 +21,14 @@ app.controller('welcomeController', function($scope) {
         }
     });
 
+    $('.footer-right-div input').keyup(function() {
+        if($('.footer-right-div input').val().length > 3) {
+            $('.footer-right-div button').css('visibility', 'visible');
+        } else {
+            $('.footer-right-div button').css('visibility', 'hidden');
+        }
+    })
+
 
     var hideAllMiniDivs = function() {
         $('.welcome-our-team-wrapper, .welcome-our-mission-wrapper, .welcome-what-we-do-wrapper ').hide();
