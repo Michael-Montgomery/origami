@@ -3,23 +3,7 @@ var app = angular.module('origami.welcome', []);
 
 app.controller('welcomeController', function($scope) {
 
-    $(window).scroll(function() {
-        if($(window).scrollTop() != 0) {
-            $('.header').css({
-                'background-color': 'white',
-                'border-bottom': '2px solid #0F9FF3'
-            });
-            $('.header nav a').css('color', '#377ADA');
 
-        } else {
-            $('.header').css({
-                'background-color': 'transparent',
-                'opacity': '1',
-                'border-bottom': 'none'
-            });
-            $('.header nav a').css('color', 'white')
-        }
-    });
 
     $('.footer-right-div input').keyup(function() {
         if($('.footer-right-div input').val().length > 3) {
