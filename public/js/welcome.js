@@ -67,8 +67,9 @@ app.controller('welcomeController', function($scope) {
             bio: 'Michael has been lived in Melbourne, FL for 15 years and received a Bachelor\'s of science degree in Web ' +
             'Design & Development from Full Sail University in 2013. In 2012, Michael ran for the office of Melbourne, FL ' +
             'City Council and while he did not win, he remains active in local politics today. Before founding Digital Origami ' +
-            'LLC, Michael Worked for companies including Bright House Networks and Apple Inc. Michael\'s hobbies includes cycling' +
-            ' and spending time with his three year old daughter. ',
+            'LLC, Michael Worked for companies including Bright House Networks and Apple Inc. In addition to CEO, Michael' +
+            ' is also the Lead Web Developer with Origami Digital. Michael\'s hobbies includes cycling' +
+            ' and spending time with his family. ',
             photoUrl: 'http://i.imgur.com/E5qxqJ6.jpg'
         },
         {
