@@ -600,6 +600,10 @@
         opacity: 1;
     }
 
+    .header nav a:hover {
+        opacity: 1;
+    }
+
 
     .welcome-wrapper-one {
         min-height: 35vh;
