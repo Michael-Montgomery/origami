@@ -527,7 +527,6 @@
     background-color: #0F9FF3;
     transition: all .3s;
     height: 0;
-    border-top: 2px solid white;
 }
 
 .responsive-menu ul {

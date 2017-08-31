@@ -53,11 +53,17 @@ app.controller('mainController', function($scope) {
 
     $scope.openResponsive = function() {
         if($('.responsive-menu').height() == 0) {
-            $('.responsive-menu').css('height', '90vh');
+            $('.responsive-menu').css({
+                'height': '90vh',
+                'border-top': '2px solid white'
+            });
         } else {
-            $('.responsive-menu').css('height', '0')
+            $('.responsive-menu').css({
+                'height': '0',
+                'border-top': 'none'
+            })
         }
-    }
+    };
     $scope.closeResponsive = function() {
         $('.responsive-menu').css('height', '0')
     }
