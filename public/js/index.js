@@ -37,14 +37,15 @@ app.controller('mainController', function($scope) {
                 'border-bottom': '2px solid #0F9FF3'
             });
             $('.header nav a').css('color', '#377ADA');
-
+            document.getElementById('logo').src = 'http://i.imgur.com/Fvy5W9u.png'
         } else {
             $('.header').css({
                 'background-color': 'transparent',
                 'opacity': '1',
                 'border-bottom': 'none'
             });
-            $('.header nav a').css('color', 'white')
+            $('.header nav a').css('color', 'white');
+            document.getElementById('logo').src = 'http://i.imgur.com/dcMc0rP.png';
         }
     });
 
