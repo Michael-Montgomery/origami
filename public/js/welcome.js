@@ -11,7 +11,21 @@ app.controller('welcomeController', function($scope) {
         } else {
             $('.footer-right-div button').css('visibility', 'hidden');
         }
-    })
+    });
+
+    $scope.toggleBio = function(idx) {
+        if(document.getElementsByClassName('member-wrapper')[idx].style.height != '800px') {
+            document.getElementsByClassName('member-wrapper')[idx].style.height = '800px';
+            document.getElementsByClassName('member-wrapper')[idx].style.overflowY = 'scroll';
+            document.getElementsByClassName('arrow')[idx].innerHTML = '<i class="fa fa-chevron-up" aria-hidden="true"></i>';
+            document.getElementsByClassName('member-bio')[idx].style.display = 'inline-block';
+        } else {
+            document.getElementsByClassName('member-wrapper')[idx].style.height = '400px';
+            document.getElementsByClassName('arrow')[idx].innerHTML = '<i class="fa fa-chevron-down" aria-hidden="true"></i>';
+            document.getElementsByClassName('member-bio')[idx].style.display = 'none';
+            document.getElementsByClassName('member-wrapper')[idx].style.overflowY = 'hidden';
+        }
+    };
 
 
     var hideAllMiniDivs = function() {
@@ -42,7 +56,7 @@ app.controller('welcomeController', function($scope) {
         $('html, body').animate({
             scrollTop: $(".welcome-sub-nav").offset().top - 70
         }, 1500);
-    }
+    };
 
 
 
@@ -50,30 +64,30 @@ app.controller('welcomeController', function($scope) {
         {
             name: 'Michael Montgomery',
             title: 'CEO',
-            bio: 'hgjfdhgjfkdls ghfjkd lsghjfksdl ghfjkdsl gjfdgfd.gfjhd ghfdklg fhjdklsghfjdk glshfdkj slghjfkdlhsgjf' +
-            'gjhfdjklsghj fdjhgs fjdsgfds.gfjdklg fhdklgj;hfkdl gjfklsgjfdk gl fdgjfdklsg; fdjgfdkjf.',
+            bio: 'Michael has been lived in Melbourne, FL for 15 years and received a Bachelor\'s of science degree in Web ' +
+            'Design & Development from Full Sail University in 2013. In 2012, Michael ran for the office of Melbourne, FL ' +
+            'City Council and while he did not win, he remains active in local politics today. Before founding Digital Origami ' +
+            'LLC, Michael Worked for companies including Bright House Networks and Apple Inc. Michael\'s hobbies includes cycling' +
+            ' and spending time with his three year old daughter. ',
             photoUrl: 'http://i.imgur.com/E5qxqJ6.jpg'
         },
         {
             name: 'Justin Paoletta',
             title: 'Web Developer',
-            bio: 'hgjfdhgjfkdls ghfjkd lsghjfksdl ghfjkdsl gjfdgfd.gfjhd ghfdklg fhjdklsghfjdk glshfdkj slghjfkdlhsgjf' +
-            'gjhfdjklsghj fdjhgs fjdsgfds.gfjdklg fhdklgj;hfkdl gjfklsgjfdk gl fdgjfdklsg; fdjgfdkjf.',
+            bio: 'Justin recieved his Bachelor\'s of Science degree from the University of Central Florida in psychology. Justin ' +
+            'is a primarily self-taught software developer with a niche for front-end tasks. Justin has worked with companies like ' +
+            'Apple inc., and currently works with Digital Origami on a consultancy basis. When Justin is not working, he is spending time ' +
+            'with his wife or chasing a thrill, usually in the form of skydiving.',
             photoUrl: 'https://scontent.ftpa1-2.fna.fbcdn.net/v/t1.0-9/189381_192406970793825_114382_n.jpg?oh=62c23240144771b7e0a2c5d423631d30&oe=5A23AF9D'
         },
         {
             name: 'Alisa Hokett',
             title: 'Marketing Specialist',
-            bio: 'hgjfdhgjfkdls ghfjkd lsghjfksdl ghfjkdsl gjfdgfd.gfjhd ghfdklg fhjdklsghfjdk glshfdkj slghjfkdlhsgjf' +
-            'gjhfdjklsghj fdjhgs fjdsgfds.gfjdklg fhdklgj;hfkdl gjfklsgjfdk gl fdgjfdklsg; fdjgfdkjf.',
+            bio: 'Alisa recieved her Bachelor\'s degree in marketing from Columbia Southern University in 2013. Alisa ' +
+            'lives in Colorado and works with Digital Origami on a consultancy basis. Alisa has a knack for brand awareness, clarity ' +
+            'and various other facets of the marketing field. Alisa has worked with Bright House Networks and Apple inc. In her free time, ' +
+            'Alisa enjoys the great outdoors with her boyfriend.',
             photoUrl: 'https://scontent.ftpa1-2.fna.fbcdn.net/v/t1.0-9/11080988_10203992807527892_5394468453804242708_n.jpg?oh=6563efd5ea243c65e7488d0afc7c6b8f&oe=5A1ED334'
-        },
-        {
-            name: 'Adrian Barton',
-            title: 'Operations Specialist',
-            bio: 'hgjfdhgjfkdls ghfjkd lsghjfksdl ghfjkdsl gjfdgfd.gfjhd ghfdklg fhjdklsghfjdk glshfdkj slghjfkdlhsgjf' +
-            'gjhfdjklsghj fdjhgs fjdsgfds.gfjdklg fhdklgj;hfkdl gjfklsgjfdk gl fdgjfdklsg; fdjgfdkjf.',
-            photoUrl: 'http://i.imgur.com/pf3gyUr.jpg'
         }
     ]
 })

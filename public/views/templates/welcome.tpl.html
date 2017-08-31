@@ -30,12 +30,14 @@
                 fields.
             </h2><br>
             <ul id="team-member-list">
-                <li ng-repeat="member in team">
+                <li ng-repeat="member in team track by $index">
                     <div class="member-wrapper">
                         <div class="member-picture-wrapper" ng-style="{'background-image':'url({{member.photoUrl}})'}"></div>
                         <div class="member-title-wrapper">
                             <h2 class="member-name">{{member.name}}</h2><br>
-                            <h2 class="member-title">{{member.title}}</h2>
+                            <h2 class="member-title">{{member.title}}</h2><br>
+                            <p class="arrow" ng-click="toggleBio($index)"><i class="fa fa-chevron-down" aria-hidden="true"></i></p><br>
+                            <p class="member-bio">{{member.bio}}</p>
 
                         </div>
                     </div>

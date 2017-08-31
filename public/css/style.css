@@ -135,10 +135,10 @@
     background: -moz-linear-gradient(bottom right, #0F9FF3, #7CC6F1); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right, #0F9FF3, #7CC6F1);
     width: 25vw;
-    height: 350px;
+    height: 400px;
     min-width: 250px;
-    -webkit-transition: background .3s;
-    transition: background .3s;
+    -webkit-transition: background .3s, height .5s;
+    transition: background .3s, height .5s;
 }
 
 .member-wrapper:hover {
@@ -164,6 +164,19 @@
     padding-top: 0;
     margin-top: 0;
     color: white;
+}
+
+.arrow {
+    color: white;
+    font-size: 1.4em;
+}
+
+.member-bio {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 25px;
+    display: none;
+    padding: 1% 8%;
 }
 
 .welcome-what-we-do-wrapper {
