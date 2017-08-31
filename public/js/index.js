@@ -31,7 +31,7 @@ app.config(function($routeProvider) {
 app.controller('mainController', function($scope) {
 
     $(window).scroll(function() {
-        if($(window).scrollTop() != 0) {
+        if($(window).scrollTop() > 0) {
             $('.header').css({
                 'background-color': 'white',
                 'border-bottom': '2px solid #0F9FF3'
