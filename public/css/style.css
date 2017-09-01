@@ -147,10 +147,6 @@
     transition: background .3s, height .5s;
 }
 
-.member-wrapper:hover {
-    background: #0F9FF3;
-}
-
 .member-picture-wrapper {
     height: 250px;
     width: 100%;
