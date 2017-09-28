@@ -70,7 +70,7 @@ app.controller('welcomeController', function($scope) {
             'LLC, Michael Worked for companies including Bright House Networks and Apple Inc. In addition to CEO, Michael' +
             ' is also the Lead Web Developer with Origami Digital. Michael\'s hobbies includes cycling' +
             ' and spending time with his family. ',
-            photoUrl: 'http://i.imgur.com/E5qxqJ6.jpg'
+            photoUrl: 'https://i.imgur.com/L9K16ms.jpg'
         },
         {
             name: 'Justin Paoletta',
@@ -88,7 +88,7 @@ app.controller('welcomeController', function($scope) {
             'lives in Colorado and works with Digital Origami on a consultancy basis. Alisa has a knack for brand awareness, clarity ' +
             'and various other facets of the marketing field. Alisa has worked with Bright House Networks and Apple inc. In her free time, ' +
             'Alisa enjoys the great outdoors with her boyfriend.',
-            photoUrl: 'https://scontent.ftpa1-2.fna.fbcdn.net/v/t1.0-9/11080988_10203992807527892_5394468453804242708_n.jpg?oh=6563efd5ea243c65e7488d0afc7c6b8f&oe=5A1ED334'
+            photoUrl: 'https://i.imgur.com/lpteT69.jpg'
         }
     ]
 })
