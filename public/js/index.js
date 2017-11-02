@@ -2,7 +2,8 @@ var app = angular.module('origami', [
     'ngRoute',
     'origami.welcome',
     'origami.work',
-    'origami.contact'
+    'origami.contact',
+    'origami.adminlogin'
 ]);
 
 app.config(function($routeProvider) {
@@ -25,6 +26,11 @@ app.config(function($routeProvider) {
     $routeProvider.when('/contact', {
         templateUrl: 'public/views/templates/contact.tpl.html',
         controller: 'contactController'
+    });
+
+    $routeProvider.when('/admin', {
+        templateUrl: 'public/views/templates/adminlogin.tpl.html',
+        controller: 'adminLoginController'
     })
 });
 
