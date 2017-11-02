@@ -63,7 +63,7 @@ app.controller('welcomeController', function($scope) {
     $scope.team = [
         {
             name: 'Michael Montgomery',
-            title: 'CEO',
+            title: 'Senior Web Developer',
             bio: 'Michael has been lived in Melbourne, FL for 15 years and received a Bachelor\'s of science degree in Web ' +
             'Design & Development from Full Sail University in 2013. In 2012, Michael ran for the office of Melbourne, FL ' +
             'City Council and while he did not win, he remains active in local politics today. Before founding Digital Origami ' +
@@ -74,7 +74,7 @@ app.controller('welcomeController', function($scope) {
         },
         {
             name: 'Justin Paoletta',
-            title: 'Web Developer',
+            title: 'Junior Web Developer',
             bio: 'Justin recieved his Bachelor\'s of Science degree from the University of Central Florida in psychology. Justin ' +
             'is a primarily self-taught software developer with a niche for front-end tasks. Justin has worked with companies like ' +
             'Apple inc., and currently works with Digital Origami on a consultancy basis. When Justin is not working, he is spending time ' +
