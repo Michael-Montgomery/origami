@@ -64,8 +64,8 @@ app.controller('welcomeController', function($scope) {
         {
             name: 'Michael Montgomery',
             title: 'Senior Web Developer',
-            bio: 'Michael has been lived in Melbourne, FL for 15 years and received a Bachelor\'s of science degree in Web ' +
-            'Design & Development from Full Sail University in 2013. In 2012, Michael ran for the office of Melbourne, FL ' +
+            bio: 'Michael has been lived in Melbourne, FL for 15 years and received a Bachelor\'s of science degree in Information ' +
+            'Science from Florida Institute of Technology in 2013. In 2012, Michael ran for the office of Melbourne, FL ' +
             'City Council and while he did not win, he remains active in local politics today. Before founding Digital Origami ' +
             'LLC, Michael Worked for companies including Bright House Networks and Apple Inc. In addition to CEO, Michael' +
             ' is also the Lead Web Developer with Origami Digital. Michael\'s hobbies includes cycling' +
