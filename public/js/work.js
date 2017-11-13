@@ -21,6 +21,6 @@ app.controller('workController', function($scope) {
     ];
 
     $scope.loadUrl = function(idx) {
-        window.location.assign($scope.projects[idx].link)
+        window.open($scope.projects[idx].link, '_blank');
     };
-})
+});
