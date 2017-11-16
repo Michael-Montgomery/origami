@@ -73,7 +73,10 @@ app.controller('mainController', function($scope) {
 
     $scope.submitEmail = function() {
         saveEmail(document.getElementById('email-input').value);
-    }
+        document.getElementById('email-signup-form').style.display = 'none';
+        document.getElementById('email-thank-you').style.display = 'block';
+
+    };
 
 
 
