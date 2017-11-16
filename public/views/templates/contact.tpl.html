@@ -17,18 +17,18 @@
             <form id="contact-form">
                 <input type="text" id="fName" ng-model="contactForm.firstName" class="half" placeholder="First Name">
                 <input type="text" id="lName" ng-model="contactForm.lastName" class="half" placeholder="Last Name"><br>
-                <input type="text" ng-model="contactForm.company" class="full" placeholder="Company"><br>
-                <input type="email" ng-model="contactForm.email" class="full" placeholder="Email Address"><br>
-                <select class="full">
+                <input type="text" id="company" class="full" placeholder="Company"><br>
+                <input type="email" id="email" class="full" placeholder="Email Address"><br>
+                <select class="full" id="reason">
                     <option value="default">Primary Reason for Contact</option>
                     <option value="dev">Website Design and/or Development</option>
                     <option value="ux">UI/UX</option>
                     <option value="brand">Branding</option>
                     <option value="other">Other</option>
                 </select><br>
-                <input type="text" ng-model="contactForm.currentUrl" class="full" placeholder="Current URL (if applicable)"><br>
-                <textarea ng-model="contactForm.details" class="full" placeholder="Include a memo or brief details about your project here."></textarea><br>
-                <button class="full"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                <input type="text" id="current-url" class="full" placeholder="Current URL (if applicable)"><br>
+                <textarea id="message" class="full" placeholder="Include a memo or brief details about your project here."></textarea><br>
+                <button ng-click="submitContact()"    class="full" ><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
             </form>
         </div>
     </div>

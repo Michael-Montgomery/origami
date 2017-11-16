@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!--Native stylesheet reference-->
     <link rel="stylesheet" href="public/css/style.css">
+    <!--Firebase CDN-->
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
     <!--Font Awesome CDN-->
     <script src="https://use.fontawesome.com/2c3779d488.js"></script>
     <!--Google Fonts CDN-->
@@ -59,8 +61,8 @@
                 <div class="col-md-4 footer-right-div footer-div">
                     <form>
                         <p>Join our mailing list</p><br>
-                        <input type="email" ng-model="footerForm.mailingListSugnup" placeholder="Email"><br>
-                        <button><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></button>
+                        <input type="email" id="email-input" ng-model="footerForm.mailingListSugnup" placeholder="Email"><br>
+                        <button ng-click="submitEmail()"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></button>
                     </form>
                 </div>
 

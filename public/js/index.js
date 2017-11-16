@@ -57,6 +57,35 @@ app.controller('mainController', function($scope) {
 
 
 
+    var config = {
+        apiKey: "AIzaSyBndM5LP9s8odp2fXaXJA9Phgz7R0Xcai4",
+        authDomain: "origami-mailing-list.firebaseapp.com",
+        databaseURL: "https://origami-mailing-list.firebaseio.com",
+        projectId: "origami-mailing-list",
+        storageBucket: "origami-mailing-list.appspot.com",
+        messagingSenderId: "92058169875"
+    };
+    firebase.initializeApp(config);
+
+
+    var emailsRef = firebase.database().ref('emails');
+
+
+    $scope.submitEmail = function() {
+        saveEmail(document.getElementById('email-input').value);
+    }
+
+
+
+    function saveEmail(email) {
+        var newEmailRef = emailsRef.push();
+        newEmailRef.set({
+            email: email
+        })
+    }
+
+
+
 
     $scope.openResponsive = function() {
         if($('.responsive-menu').height() == 0) {
