@@ -143,6 +143,9 @@
     width: 25vw;
     height: 400px;
     min-width: 250px;
+    -webkit-box-shadow: 0px 0px 55px -14px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 0px 55px -14px rgba(0,0,0,0.57);
+    box-shadow: 0px 0px 55px -14px rgba(0,0,0,0.57);
     -webkit-transition: background .3s, height .5s;
     transition: background .3s, height .5s;
 }
@@ -200,6 +203,7 @@
     width: 150px;
     height: 150px;
     display: inline;
+    text-shadow: 3px 3px #D8D8D8;
 }
 
 .welcome-what-we-do-wrapper dl dd {
@@ -217,6 +221,7 @@
     font-size: 4em;
     text-align: center;
     color: #377ADA;
+    text-shadow: 3px 3px #D8D8D8;
 }
 
 .welcome-our-mission-wrapper p {
@@ -259,6 +264,9 @@
     width: 97vw;
     background-size: cover;
     border: 1px solid #0F9FF3;
+    -webkit-box-shadow: 0px 0px 55px -14px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 0px 55px -14px rgba(0,0,0,0.57);
+    box-shadow: 0px 0px 55px -14px rgba(0,0,0,0.57);
 }
 
 .project-name {
@@ -367,6 +375,9 @@
     color: white;
     transition: all .4s;
     border: none;
+    -webkit-box-shadow: 0px 0px 55px -14px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 0px 55px -14px rgba(0,0,0,0.57);
+    box-shadow: 0px 0px 55px -14px rgba(0,0,0,0.57);
 }
 
 #contact-form button:hover {
@@ -388,7 +399,7 @@
 
 
 #email-signup-form {
-
+    display: none;
 }
 
 #email-thank-you {

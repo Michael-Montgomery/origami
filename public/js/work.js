@@ -3,6 +3,14 @@ var app = angular.module('origami.work', []);
 
 app.controller('workController', function($scope) {
     $scope.projects = [
+
+
+
+        {
+            name: 'Michael Montgomery',
+            backgroundUrl: 'https://static.pexels.com/photos/160107/pexels-photo-160107.jpeg',
+            link: 'http://www.michaelmontgomery.io'
+        },
         {
             name: 'Legacy',
             backgroundUrl: 'https://static.pexels.com/photos/164516/pexels-photo-164516.jpeg',
