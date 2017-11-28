@@ -34,7 +34,7 @@ app.config(function($routeProvider) {
     })
 });
 
-app.controller('mainController', function($scope) {
+app.controller('mainController', function($scope, $location) {
 
     $(window).scroll(function() {
         if($(window).scrollTop() > 0) {
@@ -105,5 +105,7 @@ app.controller('mainController', function($scope) {
     };
     $scope.closeResponsive = function() {
         $('.responsive-menu').css('height', '0')
-    }
-})
+    };
+
+
+});
