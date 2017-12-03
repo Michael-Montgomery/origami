@@ -79,7 +79,7 @@ app.controller('welcomeController', function($scope) {
             'is a primarily self-taught software developer with a niche for front-end tasks. Justin has worked with companies like ' +
             'Apple inc., and currently works with Digital Origami on a consultancy basis. When Justin is not working, he is spending time ' +
             'with his wife or chasing a thrill, usually in the form of skydiving.',
-            photoUrl: 'https://scontent.ftpa1-2.fna.fbcdn.net/v/t1.0-9/189381_192406970793825_114382_n.jpg?oh=62c23240144771b7e0a2c5d423631d30&oe=5A23AF9D'
+            photoUrl: 'https://scontent.ftpa1-2.fna.fbcdn.net/v/t1.0-9/189381_192406970793825_114382_n.jpg?oh=9479a091190e235add79bc48ed7674d4&oe=5A9A569D'
         },
         {
             name: 'Alisa Hokett',
