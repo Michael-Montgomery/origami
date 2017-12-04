@@ -1,6 +1,6 @@
 var app = angular.module('origami.contact', []);
 
-app.controller('contactController', function($scope) {
+app.controller('contactController', function($scope, $location) {
     var config = {
         apiKey: "AIzaSyBjTWiHJDTNdE_l_g4sn_JEoFBAWcGm3UI",
         authDomain: "origami-contact-form-submits.firebaseapp.com",
@@ -18,8 +18,12 @@ app.controller('contactController', function($scope) {
 
 
     $scope.submitContact = function() {
-        alert('clicked')
-        saveMessage(getIdVal('fName'), getIdVal('lName'), getIdVal('company'), getIdVal('email'), getIdVal('reason'), getIdVal('current-url'), getIdVal('message'))
+        saveMessage(getIdVal('fName'), getIdVal('lName'), getIdVal('company'), getIdVal('email'), getIdVal('reason'), getIdVal('current-url'), getIdVal('message'));
+        document.getElementsByClassName('contact-wrapper-two')[0].style.display = 'none';
+        document.getElementById('contact-form-greeting').innerHTML = 'Thank you! We will be in touch soon.';
+        setTimeout(function() {
+            $location.path('/welcome');
+        }, 3000)
     };
 
 
