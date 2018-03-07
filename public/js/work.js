@@ -4,7 +4,11 @@ var app = angular.module('origami.work', []);
 app.controller('workController', function($scope) {
     $scope.projects = [
 
-        
+        {
+            name: 'Vincento Merritt Photography',
+            backgroundUrl: 'https://s3-us-west-2.amazonaws.com/lightstalking-assets/wp-content/uploads/2017/02/16104918/camera-541213_1280.jpg',
+            link: 'https://michael-montgomery.github.io/vincento/#/'
+        },
         {
             name: 'Legacy',
             backgroundUrl: 'https://static.pexels.com/photos/164516/pexels-photo-164516.jpeg',
