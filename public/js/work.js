@@ -4,13 +4,7 @@ var app = angular.module('origami.work', []);
 app.controller('workController', function($scope) {
     $scope.projects = [
 
-
-
-        {
-            name: 'Michael Montgomery',
-            backgroundUrl: 'https://static.pexels.com/photos/160107/pexels-photo-160107.jpeg',
-            link: 'http://www.michaelmontgomery.io'
-        },
+        
         {
             name: 'Legacy',
             backgroundUrl: 'https://static.pexels.com/photos/164516/pexels-photo-164516.jpeg',
@@ -19,7 +13,7 @@ app.controller('workController', function($scope) {
         {
             name: 'Health First',
             backgroundUrl: 'http://hlknweb.tamu.edu/sites/hlknweb.tamu.edu/files/styles/main_page_photo/public/health%20check.jpg?itok=aAKbZUcC',
-            link: 'http://www.michaelmontgomery.io/hfhp/#/welcome'
+            link: 'https://michael-montgomery.github.io/hfhp/'
         },
         {
             name: 'WMTEK',
