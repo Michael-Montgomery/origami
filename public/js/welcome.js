@@ -64,9 +64,9 @@ app.controller('welcomeController', function($scope) {
         {
             name: 'Michael Montgomery',
             title: 'CEO & Senior Web Developer',
-            bio: 'Michael has been lived in Melbourne, FL for 15 years where he studied Web Development at Full Sail ' +
-            'University and V School. In 2012, Michael ran for the office of Melbourne, FL ' +
-            'City Council and while he did not win, he remains active in local politics today. Before founding Digital Origami ' +
+            bio: 'Michael has lived in Melbourne, FL for 15 years where he studied Information Systems at Florida Institute of Technology ' +
+            'and Full Stack Web Development at V School. In 2012, Michael ran for the office of Melbourne, FL ' +
+            'City Council and while he did not win, he remains active in local politics today. Before co-founding Origami Digital ' +
             'LLC, Michael Worked for companies including Bright House Networks and Apple Inc. In addition to CEO, Michael' +
             ' is also the Lead Web Developer with Origami Digital. Michael\'s hobbies includes cycling' +
             ' and spending time with his family. ',
@@ -77,7 +77,7 @@ app.controller('welcomeController', function($scope) {
             title: 'Junior Web Developer',
             bio: 'Justin recieved his Bachelor\'s of Science degree from the University of Central Florida in psychology. Justin ' +
             'is a primarily self-taught software developer with a niche for front-end tasks. Justin has worked with companies like ' +
-            'Apple inc., and currently works with Digital Origami on a consultancy basis. When Justin is not working, he is spending time ' +
+            'Apple inc., and co-founded Origami Digital in 2015. When Justin is not working, he is spending time ' +
             'with his wife or chasing a thrill, usually in the form of skydiving.',
             photoUrl: 'https://i.imgur.com/Vm3ph0W.jpg'
         },
